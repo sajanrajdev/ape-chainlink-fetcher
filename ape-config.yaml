@@ -1,0 +1,11 @@
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 4.5.0
+solidity:
+  import_remapping:
+    - "@openzeppelin=OpenZeppelin/v4.5.0"
+hardhat:
+  port: 8555
+  mainnet_fork:
+    upstream_provider: alchemy

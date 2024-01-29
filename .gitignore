@@ -1,0 +1,14 @@
+# ApeWorx
+venv
+.build
+
+# cache
+scripts/__pycache__
+tests/__pycache__
+contracts/.cache
+.pytest_cache
+
+# node
+node_modules
+
+.env
